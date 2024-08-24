@@ -1,0 +1,79 @@
+/*Develop a calculator program that performs basic arithmetic
+operations such as addition, subtraction, multiplication, and
+division. Allow the user to input two numbers and choose an
+operation to perform.*/
+#include<iostream>
+using namespace std;
+class num
+{
+    private:
+    float a,b;
+    public:
+    void input()
+    {
+        cout<<"Enter first number:";
+        cin>>a;
+        cout<<"Enter second number:";
+        cin>>b;
+    }
+    void add()
+    {
+        float c;
+        c=a+b;
+        cout<<"ADDITION: "<<c<<endl;
+    }
+    void sub()
+    {
+        float c;
+        c=a-b;
+        cout<<"SUBTRACTION: "<<c<<endl;
+    }
+    void mult()
+    {
+        float c;
+        c=a*b;
+        cout<<"MULTIPLICATION: "<<c<<endl;
+    }
+    void divi()
+    {
+        float c;
+        c=a/b;
+        cout<<"DIVISION: "<<c<<endl;
+    }
+};
+int main()
+{   
+    num N;
+    int ch;
+    while(1)
+    {
+        cout<<"1.input\n2.Addition\n3.Subtraction\n4.Multiplication\n5.Division\n6.exit\n";
+        cout<<"Enter your choice:";
+        cin>>ch;
+        switch(ch)
+        {
+            case 1:
+            N.input();
+            break;
+            case 2:
+            N.add();
+            break;
+            case 3:
+            N.sub();
+            break;
+            case 4:
+            N.mult();
+            break;
+            case 5:
+            N.divi();
+            break;
+            case 6:
+            cout<<"exit.....";
+            exit(0);
+            default:
+            cout<<"invalid choice:";
+            break;
+        }
+    }
+    return 0;
+}
