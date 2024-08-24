@@ -5,7 +5,9 @@ ________________________________________________________________________________
 Table of Contents:
 
 Introduction
+
 Tasks
+
 Thanking CodSoft
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Introduction:
@@ -15,6 +17,7 @@ ________________________________________________________________________________
 Tasks:
 
 Below is the list of tasks I have completed as part of this internship:
+
 Task 1: Password Generator
 
 The Password Generator App is a simple yet useful desktop application developed using Tkinter, a Python library for creating graphical user interfaces. The primary objective of this app is to generate secure and random passwords based on user-defined criteria.
