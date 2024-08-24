@@ -1,0 +1,49 @@
+/*Create a program that generates a random number and asks the
+user to guess it. Provide feedback on whether the guess is too
+high or too low until the user guesses the correct number.*/
+
+#include<iostream>
+#include<cstdlib>
+#include<ctime>
+using namespace std;
+class num
+{
+    public:
+    int number,guess;
+    void randomnum()
+    {
+        srand((unsigned int) time(NULL));
+        number=(rand()%100)+1;
+    }
+    void play()
+    {   
+        guess=0;
+        cout<<"NUMBER GUESSING GAME..."<<endl;
+        cout<<"I created a number between 1 to 100 try to guess it."<<endl;
+        do
+        {
+            cout<<"Enter number:";
+            cin>>guess;
+            if(guess>number)
+            {
+                cout<<"Guess lower number"<<endl;
+            }
+            else if(guess<number)
+            {
+                cout<<"Guess higher number"<<endl;
+            } 
+            else
+            {
+                cout<<"CONGRATULATION! YOU WON."<<endl;
+            }
+        } while (guess!=number);
+        
+    }
+};
+int main()
+{
+    num N;
+    N.randomnum();
+    N.play();
+    return 0;
+}
