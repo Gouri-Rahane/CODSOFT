@@ -18,21 +18,25 @@ Tasks:
 
 Below is the list of tasks I have completed as part of this internship:
 
-Task 1: Password Generator
+Task 1: NUMBER GUESSING GAME
 
-The Password Generator App is a simple yet useful desktop application developed using Tkinter, a Python library for creating graphical user interfaces. The primary objective of this app is to generate secure and random passwords based on user-defined criteria.
+Create a program that generates a random number and asks the user to guess it. Provide feedback on whether the guess is too high or too low until the user guesses the correct number.
 
-Task 2: Quiz Game
+Task 2: SIMPLE CALCULATOR
 
-The Quiz Game App is an interactive desktop application developed using Tkinter. This engaging app allows users to test their knowledge across various topics through a series of multiple-choice questions.
+Develop a calculator program that performs basic arithmetic operations such as addition, subtraction, multiplication, and division. Allow the user to input two numbers and choose an operation to perform.
 
-Task 3: Weather Forecaster
+Task 3: TIC-TAC-TOE GAME
 
-The Weather Forecasting App is a dynamic desktop application developed using Tkinter and the OpenWeatherMap API, which provides real-time weather data. This app allows users to check the current weather conditions and the forecast for any location worldwide.
+Build a simple console-based Tic-Tac-Toe game that allows two players to play against each other
 
-Task 4: Calculator
+Task 4: LIBRARY MANAGEMENT SYSTEM
 
-The Calculator App is a versatile desktop application developed using Tkinter, a Python library for creating graphical user interfaces. This efficient app provides users with a convenient tool to perform basic arithmetic calculations quickly and accurately.
+Develop a system to manage books, borrowers, and transactions in a library.
+
+Task 5: TO-DO LIST
+
+Build a simple console-based to-do list manager that allows users to add, view, and delete tasks
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 Thanking CodSoft:
 
